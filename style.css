@@ -1,0 +1,36 @@
+.clr-org{
+    color: rgb(12, 12, 12);
+}
+.clr-clp{
+    color: #727677;
+}
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.bg-green{
+    background: rgb(41, 124, 231);
+}
+.header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: rgba(48, 47, 47, 0.562);
+    box-shadow: 0px 8px 15px 3px rgba(138, 135, 135, 0.596);
+    z-index: 111;
+}
+.header ul{
+    margin-left: 50px;
+    padding: 0%;
+}
+body {
+    background-image: url('temp6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  } 
